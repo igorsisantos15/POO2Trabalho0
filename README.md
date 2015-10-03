@@ -34,7 +34,7 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 
 <p>A seguir apresentaremos os Guerreiros de cada nação:</p>
 
-<p><h6>Chineses:</h6></p>
+<h6>Chineses:</h6>
 <p>Ofensores:</p>
 <p>1) Chun Ku: os Chun Ku são arqueiros chineses. Retiram 5 pontos de qualquer defensor indiano e 10 pontos de qualquer defensor japonês.</p>
 <p>2) Gun Te: os Gun te são guerreiros de grandes espadas. São especialmente bons contra a defesa japonesa, retirando 20 pontos de qualquer defensor. Quando atacam defensores indianos retiram 1 ponto mas morrem em seguida.</p>
@@ -44,14 +44,14 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>2) Montor do escudo: os montores são guerreiros de grandes escudos cuja energia inicial é de 150 (é o único guerreiro que redefine esse valor). Quando os montores morrem eles levam consigo (matam) o guerreiro ofensor que os atacou.</p>
 <p>3) Mirk o conversor: se atacados por Samurais os convertem em guerreiros Gun  Te e colocam na fila de atacantes. Não sofrem qualquer dano de Samurais.</p>
 
-<p><h6>Japoneses:</h6></p>
+<h6>Japoneses:</h6>
 <p>Ofensores:</p>
 <p>1) Samurai: guerreiros lendários japoneses. Qualquer defensor atacado perde 50 pontos, exceto Mirk o conversor.</p>
 <p>2) Ninja: guerreiros sorrateiros japoneses. Qualquer defensor atacado perde 20 pontos.</p>
 <p>Defensores:</p>
 <p>1)	Tan tan: os tan tan são guerreiros com escudos fixos nos braços. Quando morrem se transformam em ninjas.</p>
 
-<p><h6>Indianos:</h6></p>
+<h6>Indianos:</h6>
 <p>Ofensores:</p>
 <p>1) Seak: os seak são flexíveis unidades de ataque indianas, possuindo espada e arco. Os Seak retiram 25 pontos de qualquer guerreiro defensor atacado.</p>
 <p>Defensores:</p>
@@ -63,13 +63,13 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>A entrada de dados de um arquivo de nação deverá ter o seguinte formato:</p>
 <p><nome da nação></p>
 <p>Ofensores:</p>
-<p><tipo do ofensor><nome do ofensor><idade 1 ><peso 1></p>
+<tipo do ofensor><nome do ofensor><idade 1 ><peso 1>
 <p>...</p>
-<p><tipo do ofensor n><nome do ofensor><idade n ><peso n></p>
+<tipo do ofensor n><nome do ofensor><idade n ><peso n>
 <p>Defensores:</p>
-<p><tipo do defensor><nome do defensor ><idade 1 ><peso 1></p>
+<tipo do defensor><nome do defensor ><idade 1 ><peso 1>
 <p>...</p>
-<p><tipo do defensor n><nome do defensor ><idade n ><peso n></p>
+<tipo do defensor n><nome do defensor ><idade n ><peso n>
 <p>Exemplo:</p>
 <p>Japão</p>
 <p>Ofensores:</p>
@@ -84,9 +84,9 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>Saída de dados:</p>
 <p>A nação vencedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>A nação perdedora foi: <nome da nação> (Japão, Índia ou China)</p>
-<p>Acabaram os guerreiros <categoria> (Ofensores ou defensores).</p>
-<p>O último membro da nação perdedora foi: <nome da classe> => <nome do último membro>,<idade>,<peso></p>
-<p>O membro da nação vencedora que transferiu o último ataque foi: <nome da classe> => <nome do membro>,<idade>,<peso></p>
+Acabaram os guerreiros <categoria> (Ofensores ou defensores).
+O último membro da nação perdedora foi: <nome da classe> => <nome do último membro>,<idade>,<peso>
+O membro da nação vencedora que transferiu o último ataque foi: <nome da classe> => <nome do membro>,<idade>,<peso>
 <p>Exemplo:</p>
 <p>A nação vencedora foi: Japão</p>
 <p>A nação perdedora foi: Índia</p>
