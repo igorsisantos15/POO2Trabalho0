@@ -1,5 +1,5 @@
 # POO2Trabalho0
-
+<meta charset="UTF-8">
 Trabalho POO2 – Semestre 20152
 
 Nome: Igor Soares dos Santos, Italo Lourenço Trindade
