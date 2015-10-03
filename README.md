@@ -6,7 +6,7 @@ Nome: Igor Soares dos Santos, Italo Lourenço Trindade
 
 <h1> Mini Mundo: </h1>
 
-<p>Dois estudantes do IFES foram contratados por jogadores profissionais para desenvolver um simulador do jogo “Age of Empires” , com isso o simulador iria simular uma partida, uma guerra entre as civilizações. 
+<p>Dois estudantes do IFES foram contratados por jogadores profissionais para desenvolver um simulador do jogo “Age of Empires” , com isso o simulador vai simular uma partida do jogo, ou seja, uma guerra entre as civilizações. 
 O jogo basicamente consiste em colocar duas nações uma contra a outra, onde cada nação monta um conjunto de guerreiros para representa-la.
 Os guerreiros são divididos em dois grupos os de defesa que são os defensores e os guerreiros de ataque que são os ofensores. </p>
 <p>Para esse simulador do jogo, existem 3 possíveis nações a serem escolhidas:</p>
@@ -63,13 +63,13 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>A entrada de dados de um arquivo de nação deverá ter o seguinte formato:</p>
 <p><nome da nação></p>
 <p>Ofensores:</p>
-<p><tipo do ofensor><nome do ofensor><idade 1 ><peso 1></p>
+(tipo do ofensor)(nome do ofensor)(idade 1 )(peso 1)
 <p>...</p>
-<tipo do ofensor n><nome do ofensor><idade n ><peso n>
+(tipo do ofensor n)(nome do ofensor)(idade n)(peso n)
 <p>Defensores:</p>
-<tipo do defensor><nome do defensor ><idade 1 ><peso 1>
+(tipo do defensor)(nome do defensor)(idade 1)(peso 1)
 <p>...</p>
-<tipo do defensor n><nome do defensor ><idade n ><peso n>
+(tipo do defensor n)(nome do defensor)(idade n)(peso n)
 <p>Exemplo:</p>
 <p>Japão</p>
 <p>Ofensores:</p>
@@ -85,8 +85,8 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>A nação vencedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>A nação perdedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>Acabaram os guerreiros <categoria> (Ofensores ou defensores).
-O último membro da nação perdedora foi: <nome da classe> => <nome do último membro>,<idade>,<peso>
-O membro da nação vencedora que transferiu o último ataque foi: <nome da classe> => <nome do membro>,<idade>,<peso></p>
+O último membro da nação perdedora foi: (nome da classe) => (nome do último membro),(idade),(peso)
+O membro da nação vencedora que transferiu o último ataque foi: (nome da classe) => (nome do membro),(idade),(peso)
 <p>Exemplo:</p>
 <p>A nação vencedora foi: Japão</p>
 <p>A nação perdedora foi: Índia</p>
