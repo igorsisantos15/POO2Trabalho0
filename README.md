@@ -63,7 +63,7 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>A entrada de dados de um arquivo de nação deverá ter o seguinte formato:</p>
 <p><nome da nação></p>
 <p>Ofensores:</p>
-<tipo do ofensor><nome do ofensor><idade 1 ><peso 1>
+<p><tipo do ofensor><nome do ofensor><idade 1 ><peso 1></p>
 <p>...</p>
 <tipo do ofensor n><nome do ofensor><idade n ><peso n>
 <p>Defensores:</p>
@@ -84,9 +84,9 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>Saída de dados:</p>
 <p>A nação vencedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>A nação perdedora foi: <nome da nação> (Japão, Índia ou China)</p>
-Acabaram os guerreiros <categoria> (Ofensores ou defensores).
+<p>Acabaram os guerreiros <categoria> (Ofensores ou defensores).
 O último membro da nação perdedora foi: <nome da classe> => <nome do último membro>,<idade>,<peso>
-O membro da nação vencedora que transferiu o último ataque foi: <nome da classe> => <nome do membro>,<idade>,<peso>
+O membro da nação vencedora que transferiu o último ataque foi: <nome da classe> => <nome do membro>,<idade>,<peso></p>
 <p>Exemplo:</p>
 <p>A nação vencedora foi: Japão</p>
 <p>A nação perdedora foi: Índia</p>
