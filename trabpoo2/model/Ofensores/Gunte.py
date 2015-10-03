@@ -1,5 +1,5 @@
 from model.Guerreiro import Guerreiro
-import Ofensor.py
+from model.Ofensores.Ofensor import Ofensor
 
 class Gunte(Ofensor):
 

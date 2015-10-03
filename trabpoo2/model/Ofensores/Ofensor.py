@@ -1,5 +1,5 @@
 
-import Guerreiro.py
+from model.Guerreiro import Guerreiro
 
 __author__ = 'Italo'
 

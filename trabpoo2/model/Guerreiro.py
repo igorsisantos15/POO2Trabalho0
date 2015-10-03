@@ -1,12 +1,17 @@
 __author__ = 'Italo'
 
 
-class Guerreiro (Nacao):
+class Guerreiro (object):
     __nome = None
     __idade = None
     __peso = None
     __energia = 100
     __tipo = None
+
+    def __init__(self, nome, idade, peso):
+        self.nome = nome
+        self.idade = idade
+        self.peso = peso
 
     def getNome(self):
         return self.__peso

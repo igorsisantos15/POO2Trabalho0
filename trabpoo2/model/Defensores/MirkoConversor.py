@@ -16,7 +16,7 @@ class MirkoConversor(Defensor):
         print "%s (%s) DEFENDE!" %(self.getNome(self),self.getTipo(self))
 
         if guerreiro.getTipo(self) == "Samurai":
-            print "% se transforma em Gun Te" %guerreiro.getNome(self)
+            print "% se transforma em Gun Te" %guerreiro.getNome
             gunte = Gunte(self.getNome(), self.getIdade(), self.getPeso());
             ofensores.add(gunte)
             guerreiro.getEnergia(self,0)

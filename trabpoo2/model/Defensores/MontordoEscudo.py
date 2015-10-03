@@ -19,6 +19,6 @@ class MontordoEscudo(Defensor):
             defensores.remove(self)
             guerreiro.setEnergia(self,0)
             ofensoresAdversarios.remove(guerreiro)
-        if guerreiro.getNome() == "Dalai":
+        if guerreiro.getNome == "Dalai":
            for p in ofensoresAdversarios:
                 print ofensoresAdversarios.toString()

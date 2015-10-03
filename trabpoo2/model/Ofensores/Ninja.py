@@ -1,14 +1,12 @@
 from model.Guerreiro import Guerreiro
-
-
-import Ofensor.py
+from model.Ofensores.Ofensor import Ofensor
 
 class Ninja(Ofensor):
 
     def __init__ (self, nome, idade, peso):
         Guerreiro.__init__(self,nome,idade,peso)
         self.tipo = 'Ninja'
-        self.nacao = 'Japão'
+        self.nacao = 'Japao'
 
     def atacar(self, guerreiro, ofensores, defensores, defensoresAdversarios):
         print "Energia: %s"  %self.getEnergia()

@@ -1,4 +1,8 @@
 __author__ = 'IGOR'
+__author__ = 'IGOR'
+
+__author__ = 'IGOR'
+__author__ = 'IGOR'
 
 class GerarResultado:
      __empate = 0

@@ -1,17 +1,21 @@
 __author__ = 'Italo'
 
-import Guerreiro.py
-import Leitor.py
+
 
 class Nacao(object):
+    __nome = None
     __ofensores = []
     __defensores = []
-    __nomeNacao = None
-    def __init__(self, arq):
 
-        self.__ofensores = leitor.carregaOfensores(arq);
-        self.__defensores = leitor.carregaDefensores(arq);
+
+    def setOfensores(self, ofensores):
+        self.__ofensores = ofensores
+
+    def setDefensores(self, defensores):
+        self.__defensores = defensores
+
+    def setNome(self, nome):
+        self.__nome = nome
+
     def getNome(self):
-        return self.__nomeNacao
-    def setNome(self,nomeNacao):
-        self.__nomeNacao = nomeNacao
+        return self.__nome
