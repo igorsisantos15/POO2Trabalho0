@@ -23,7 +23,7 @@ Os guerreiros são divididos em dois grupos os de defesa que são os defensores 
 Os ofensores atacarão sucessivamente um defensor até que ele seja eliminado, uma vez que isso ocorra o próximo defensor da fila de defesa entrará em sua vez.</p>
 Depois que atacam os ofensores voltam para o final da fila de ofensores.</p>
 O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se um fila não tem mais guerreiros a nação perde.</p>
-<h5>Desenvolvimento	<h5>
+<h5>Desenvolvimento	</h5>
 <p>Primeiramente é necessário definir o que é um Guerreiro. Um Guerreiro é alguém que luta, podendo ser ofensor ou defensor e possui obrigatoriamente:</p>
 <p>•	Nome</p>
 <p>•	Idade</p>
