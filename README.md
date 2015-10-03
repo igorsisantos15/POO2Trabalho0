@@ -4,7 +4,7 @@ Trabalho POO2 – Semestre 20152
 
 Nome: Igor Soares dos Santos, Italo Lourenço Trindade
 
-<h3> Mini Mundo: </h3>
+<h1> Mini Mundo: </h1>
 
 <p>Dois estudantes do IFES foram contratados por jogadores profissionais para desenvolver um simulador do jogo “Age of Empires” , com isso o simulador iria simular uma partida, uma guerra entre as civilizações. 
 O jogo basicamente consiste em colocar duas nações uma contra a outra, onde cada nação monta um conjunto de guerreiros para representa-la.
@@ -23,7 +23,7 @@ Os guerreiros são divididos em dois grupos os de defesa que são os defensores 
 Os ofensores atacarão sucessivamente um defensor até que ele seja eliminado, uma vez que isso ocorra o próximo defensor da fila de defesa entrará em sua vez.</p>
 Depois que atacam os ofensores voltam para o final da fila de ofensores.</p>
 O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se um fila não tem mais guerreiros a nação perde.</p>
-<h1>Desenvolvimento	
+<h5>Desenvolvimento	<h5>
 <p>Primeiramente é necessário definir o que é um Guerreiro. Um Guerreiro é alguém que luta, podendo ser ofensor ou defensor e possui obrigatoriamente:</p>
 <p>•	Nome</p>
 <p>•	Idade</p>
@@ -34,7 +34,7 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 
 <p>A seguir apresentaremos os Guerreiros de cada nação:</p>
 
-<p>Chineses:</p>
+<p><h6>Chineses:</h6></p>
 <p>Ofensores:</p>
 <p>1) Chun Ku: os Chun Ku são arqueiros chineses. Retiram 5 pontos de qualquer defensor indiano e 10 pontos de qualquer defensor japonês.</p>
 <p>2) Gun Te: os Gun te são guerreiros de grandes espadas. São especialmente bons contra a defesa japonesa, retirando 20 pontos de qualquer defensor. Quando atacam defensores indianos retiram 1 ponto mas morrem em seguida.</p>
@@ -44,14 +44,14 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>2) Montor do escudo: os montores são guerreiros de grandes escudos cuja energia inicial é de 150 (é o único guerreiro que redefine esse valor). Quando os montores morrem eles levam consigo (matam) o guerreiro ofensor que os atacou.</p>
 <p>3) Mirk o conversor: se atacados por Samurais os convertem em guerreiros Gun  Te e colocam na fila de atacantes. Não sofrem qualquer dano de Samurais.</p>
 
-<p>Japoneses:</p>
+<p><h6>Japoneses:</h6></p>
 <p>Ofensores:</p>
 <p>1) Samurai: guerreiros lendários japoneses. Qualquer defensor atacado perde 50 pontos, exceto Mirk o conversor.</p>
 <p>2) Ninja: guerreiros sorrateiros japoneses. Qualquer defensor atacado perde 20 pontos.</p>
 <p>Defensores:</p>
 <p>1)	Tan tan: os tan tan são guerreiros com escudos fixos nos braços. Quando morrem se transformam em ninjas.</p>
 
-<p>Indianos:</p>
+<p><h6>Indianos:</h6></p>
 <p>Ofensores:</p>
 <p>1) Seak: os seak são flexíveis unidades de ataque indianas, possuindo espada e arco. Os Seak retiram 25 pontos de qualquer guerreiro defensor atacado.</p>
 <p>Defensores:</p>
