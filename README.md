@@ -85,13 +85,10 @@ O jogo acaba se uma nação não tem mais ofensores ou defensores, ou seja, se u
 <p>A nação vencedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>A nação perdedora foi: <nome da nação> (Japão, Índia ou China)</p>
 <p>Acabaram os guerreiros <categoria> (Ofensores ou defensores).
-O último membro da nação perdedora foi: (nome da classe) => (nome do último membro),(idade),(peso)
-O membro da nação vencedora que transferiu o último ataque foi: (nome da classe) => (nome do membro),(idade),(peso)
 <p>Exemplo:</p>
 <p>A nação vencedora foi: Japão</p>
 <p>A nação perdedora foi: Índia</p>
 <p>Acabaram os guerreiros Defensores.</p>
-<p>O último membro da nação perdedora foi: Monge Leaf => Toll, 70, 30</p>
-<p>O membro da nação vencedora que transferiu o último ataque foi: Samurai => NitTe, 30, 70</p>
+
 	
 
