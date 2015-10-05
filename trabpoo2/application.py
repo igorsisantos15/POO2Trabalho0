@@ -6,8 +6,7 @@ __author__ = 'Italo'
 def main():
 
 
-    print ('Iniciando uma nova batalha')
-    ctrlbatalha = CtrlBatalha();
+    ctrlbatalha = CtrlBatalha()
     ctrlbatalha.iniciarBatalha()
 
 

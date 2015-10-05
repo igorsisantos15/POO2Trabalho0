@@ -6,5 +6,5 @@ __author__ = 'Italo'
 
 class  Defensor (Guerreiro):
 
-    def defender(self, guerreiro, ofensores, defensores, defensoresAdversarios ):
+    def defender(self, guerreiro, defensores, ofensores, ofensoresAdversarios):
         raise NotImplementedError("Ofensores devem implementar Atacar")

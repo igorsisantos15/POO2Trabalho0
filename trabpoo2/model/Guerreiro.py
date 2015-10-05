@@ -7,29 +7,31 @@ class Guerreiro (object):
     __peso = None
     __energia = 100
     __tipo = None
+    __nacao = None
 
-    def __init__(self, nome, idade, peso):
+    def __init__(self, nome, idade, peso, nacao):
         self.nome = nome
         self.idade = idade
         self.peso = peso
+        self.__nacao = nacao
 
     def getNome(self):
-        return self.__peso
+        return self.nome
 
     def setNome(self, nome):
          self.__nome = nome
 
     def getIdade(self):
-        return self.__idade
+        return self.idade
 
     def setIdade(self, idade):
-         self.__idade = idade
+         self.idade = idade
 
     def getPeso(self):
-        return self.__peso
+        return self.peso
 
     def setPeso(self, peso):
-         self.__peso = peso
+         self.peso = peso
 
     def getEnergia(self):
         return self.__energia
@@ -38,13 +40,14 @@ class Guerreiro (object):
          self.__energia = energia
 
     def getTipo(self):
-        return self.__tipo
+        return self.tipo
 
     def setTipo(self, tipo):
-         self.__tipo = tipo
+         self.tipo = tipo
 
-    def toString(self):
-        return "Tipo %s => %s - Idade: %d - Peso: %d - Energia: %d" %(self.getTipo(),self.getNome(),self.getIdade(),self.getPeso(),self.getEnergia())
+    def getNomeNacao(self):
+        return self.__nacao
+
 
 
 

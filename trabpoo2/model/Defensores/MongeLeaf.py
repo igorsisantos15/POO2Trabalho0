@@ -1,26 +1,19 @@
 from model.Guerreiro import Guerreiro
 
-from model.Defensores import Defensor
+from model.Defensores.Defensor import Defensor
 
 
 class MongeLeaf(Defensor):
 
     def __init__ (self, nome, idade, peso):
-        Guerreiro.__init__(self,nome,idade,peso)
+        Guerreiro.__init__(self,nome,idade,peso,'India')
         self.tipo = 'MongeLeaf'
-        self.nacao = 'India'
 
-    def defender(self, guerreiro, ofensores, defensores, ofensoresAdversarios):
-        print "Energia: %" %self.getEnergia(self)
-        print "%s (%s) DEFENDE!" %(self.getNome(self),self.getTipo(self))
+    def defender(self, guerreiro, defensores, ofensores, ofensoresAdversarios):
         if guerreiro.getTipo() == "Ninja":
-            self.setEnergia(self,self.getEnergia()+ 20)
-            guerreiro.setEnergia(self,guerreiro.getEnergia(self)-1)
+            self.setEnergia(self.getEnergia()+ 20)
+            guerreiro.setEnergia(guerreiro.getEnergia()-1)
         if guerreiro.getTipo() == "Chunku":
-            self.setEnergia(self,self.getEnergia()+ 5)
-            guerreiro.setEnergia(self,guerreiro.getEnergia(self)-1)
-        print "Energia pos defesa: %d" %self.getEnergia(self)
-        if self.getEnergia()<=0:
-            print "%s (%s) Morreu" %(self.getNome(self),self.getTipo(self))
-            defensores.remove(self)
+            self.setEnergia(self.getEnergia()+ 5)
+            guerreiro.setEnergia(guerreiro.getEnergia()-1)
 
